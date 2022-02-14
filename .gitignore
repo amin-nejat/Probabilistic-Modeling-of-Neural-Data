@@ -2,5 +2,6 @@
 *.pyc
 .ipynb_checkpoints
 *.pt
-__pycache__/
+code/__pycache__/
 misc/
+__pycache__/
