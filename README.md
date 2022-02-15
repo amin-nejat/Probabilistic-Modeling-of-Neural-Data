@@ -19,7 +19,9 @@ conda activate pyro
 
 4. Install [**pyro**](https://anaconda.org/conda-forge/pyro-ppl) with conda
 
-5. Run **jypter lab** in conda and execute notebooks
+5. Install [**jypter lab**](https://jupyterlab.readthedocs.io/en/stable/getting_started/installation.html) with conda
+
+6. Run **jypter lab** in conda and execute notebooks
 ```
 jupyter lab
 ```
