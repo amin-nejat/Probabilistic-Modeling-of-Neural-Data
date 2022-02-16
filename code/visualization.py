@@ -74,3 +74,13 @@ def plot_gmm_2d(data,mu,pi,z,weights=None,locs=None):
     plt.axis('equal')
     plt.show()
     
+
+# %%
+def plot_transition(mat,titles):
+    for i in range(len(mat)):
+        plt.subplot(1,len(mat),i+1)
+        plt.imshow(mat[i])
+        plt.title(titles[i])
+        plt.axis('off')
+    
+    plt.show()
